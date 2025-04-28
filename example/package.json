@@ -20,22 +20,25 @@
   "keywords": [],
   "dependencies": {
     "@garronej/keycloakify": "workspace:*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
     "@garronej/keycloakify-emails": "workspace:*",
+    "@jsx-email/plugin-inline": "^1.0.1",
+    "@jsx-email/plugin-minify": "^1.0.2",
+    "@jsx-email/plugin-pretty": "^1.0.0",
     "@storybook/react": "^8.1.10",
     "@storybook/react-vite": "^8.1.10",
     "@types/node": "^22.9.1",
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.15.0",
     "@typescript-eslint/parser": "^8.15.0",
     "@vitejs/plugin-react": "^4.2.1",
     "esbuild": "^0.24.0",
-    "eslint": "^9.15.0",
+    "eslint": "^8.15.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
@@ -51,6 +54,5 @@
   },
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
-  },
-  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+  }
 }
