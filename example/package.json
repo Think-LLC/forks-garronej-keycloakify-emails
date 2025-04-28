@@ -1,5 +1,5 @@
 {
-  "name": "keycloakify-starter",
+  "name": "@garronej/keycloakify-emails-starter",
   "version": "0.0.0",
   "description": "Starter for Keycloakify 11",
   "repository": {
@@ -19,12 +19,13 @@
   "license": "MIT",
   "keywords": [],
   "dependencies": {
-    "keycloakify": "^11.3.24",
+    "@garronej/keycloakify": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
+    "@garronej/keycloakify-emails": "workspace:*",
     "@storybook/react": "^8.1.10",
     "@storybook/react-vite": "^8.1.10",
     "@types/node": "^22.9.1",
@@ -42,7 +43,6 @@
     "eslint-plugin-storybook": "^0.11.1",
     "globals": "^15.12.0",
     "jsx-email": "^2.5.3",
-    "keycloakify-emails": "workspace:*",
     "prettier": "3.3.1",
     "storybook": "^8.1.10",
     "typescript": "^5.2.2",
