@@ -48,7 +48,7 @@
     "jsx-email": "^2.5.3",
     "prettier": "3.3.1",
     "storybook": "^8.1.10",
-    "typescript": "^5.2.2",
+    "typescript": "5.8.3",
     "typescript-eslint": "^8.15.0",
     "vite": "^5.0.8"
   },
